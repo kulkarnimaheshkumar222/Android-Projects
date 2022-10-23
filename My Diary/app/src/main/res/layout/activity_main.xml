@@ -64,6 +64,8 @@
         android:text="Log In"
         android:backgroundTint="@color/design_default_color_secondary_variant"
         android:layout_margin="10dp"
+        android:id="@+id/logInBtnId"
+        android:onClick="logInBtnClicked"
         />
     </LinearLayout>
 
@@ -114,6 +116,8 @@
         android:backgroundTint="@color/design_default_color_secondary_variant"
         android:layout_margin="10dp"
         android:gravity="center"
+        android:onClick="createNewAccountBtnClicked"
+        android:id="@+id/createNewAccountBtnId"
         />
   </LinearLayout>
 
